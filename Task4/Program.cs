@@ -6,6 +6,7 @@ Console.WriteLine($"случайное число из отрезка [10, 99]={
 int firstDigit = number / 10;
 int secondDigit = number % 10;
 
+
 if (firstDigit > secondDigit)
 {
  Console.WriteLine($"наибольшую цифру числа {number}");
